@@ -81,14 +81,10 @@ body{
     right:0px ;
     top: 10%;
     right:0px ;
-    align-items: right;
-    
-    
-    
-    
-    
+    align-items: right;    
     
 } 
+
 .work-bg{
     background-image: url("images/bg-pattern-how-we-work-mobile.svg");
     position: absolute;
@@ -358,7 +354,7 @@ footer .partners p{
             justify-items: center;
         }
         .work h1{
-            width: 44%;
+            width: 45%;
             padding: 5%;
             
         
@@ -385,7 +381,7 @@ footer .partners p{
 .work .button:hover{
     background-color: hsl(273, 4%, 90%);
     color:  hsl(256, 26%, 20%);
-    cursor: white;
+    
     
 }
 
@@ -426,6 +422,9 @@ footer .partners .topd{
     footer .partners h4 a:hover{
         text-decoration: underline;
         cursor: white;
+    }
+    footer .partners .topd p h4 a:hover{
+text-decoration: underline;
     }
     footer .partners h4 {
         font-size: 12px;
@@ -496,6 +495,10 @@ footer .partners .topd{
                 .container-fluid .view{
                     border: solid black;
                     color: black;
+                }
+                .container-fluid .view:hover{
+                    background-color:hsl(270, 9%, 17%) ;
+                    color: white;
                 }
                 .container-fluid ul{
                     margin-top: 14px;
